@@ -1,0 +1,34 @@
+Papias-MacBook-Air:bb Paru$ cd cal
+Papias-MacBook-Air:cal Paru$ ls
+BasicCalculator.java
+Papias-MacBook-Air:cal Paru$ javac BasicCalculator.java
+
+Papias-MacBook-Air:cal Paru$ java BasicCalculator 10.0 + 5
+Addition(+),Subtraction(-),Multiplication([) and Division(/) operators
+10.0 + 5 Result: 15.0
+
+
+
+Papias-MacBook-Air:cal Paru$ java BasicCalculator 10.0 -5
+Addition(+),Subtraction(-),Multiplication([) and Division(/) operators
+10.0 -5  wrong Operator Input Papias-MacBook-Air:cal Paru$ java 
+
+BasicCalculator 10.0 - 5 
+Addition(+),Subtraction(-),Multiplication([) and Division(/) operators
+10.0 - 5 Result: 5.0
+
+Papias-MacBook-Air:cal Paru$ java BasicCalculator 10.0 [ 5
+Addition(+),Subtraction(-),Multiplication([) and Division(/) operators
+10.0 [ 5 Result: 50.0
+
+
+Papias-MacBook-Air:cal Paru$ java BasicCalculator 10.0 / 0 
+Addition(+),Subtraction(-),Multiplication([) and Division(/) operators
+10.0 / 0  You can not Divided by zero
+
+
+Papias-MacBook-Air:cal Paru$ java BasicCalculator 20 / 4 
+Addition(+),Subtraction(-),Multiplication([) and Division(/) operators
+20 / 4 Result: 5.0
+
+Papias-MacBook-Air:cal Paru$
