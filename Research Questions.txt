@@ -1,0 +1,22 @@
+Research Questions:
+
+1.It works because NullPointerException is an instance of Throwable. The catch clause catches all instances of the declared type.NullPointerException is a child of Excepsion. Exception is a child of Throwable. So thats should work becouse of Polymorphism.
+Sources:
+https://stackoverflow.com/questions/49926816/does-the-compiler-consider-actual-types-in-error-handling-in-java
+https://docs.oracle.com/javase/tutorial/essential/exceptions/
+https://www.tutorialspoint.com/java/java_exceptions.htm
+https://groups.google.com/forum/#!topic/javaposse/XnrpS0nXDSw%5B1-25%5D
+https://www.geeksforgeeks.org/exceptions-in-java/
+
+
+2: Java 8 introduces default methods to provide the ability to extend interfaces without the need to modify existing implementations.
+So  we can access default method in interface myinterface
+using   myinterface.super.sayHello();
+
+myinterface have .sayHello()methods and the specific default implementation can be chosen or we can use it  our new sayHello() method. We can also use the same syntax to access the default versions in other methods in our implementing class.
+Sources:
+https://docs.oracle.com/javase/tutorial/java/IandI/defaultmethods.html
+https://stackoverflow.com/questions/19976487/explicitly-calling-a-default-method-in-java
+https://www.geeksforgeeks.org/default-methods-java/
+https://www.tutorialspoint.com/java8/java8_default_methods.htm
+==============
